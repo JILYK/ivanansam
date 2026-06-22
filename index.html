@@ -82,11 +82,11 @@
                 <button class="works__tab" data-target="ai">ИИ-видео</button>
             </div>
 
-            <!-- Horizontal Grid -->
+            <!-- Horizontal Grid (# — горизонтальные) -->
             <div class="works__grid works__grid--horizontal active" id="horizontal-works">
                 <div class="works__item" data-animate>
                     <div class="works__video-wrap works__video-wrap--horizontal">
-                        <video src="assets/work 1.mp4" playsinline muted loop preload="metadata"></video>
+                        <video src="assets/h1.mp4" playsinline muted loop preload="metadata"></video>
                         <div class="works__play-overlay">
                             <div class="works__play-btn"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M8 5V19L19 12L8 5Z" fill="white"/></svg></div>
                         </div>
@@ -94,7 +94,23 @@
                 </div>
                 <div class="works__item" data-animate>
                     <div class="works__video-wrap works__video-wrap--horizontal">
-                        <video src="assets/work 2.mp4" playsinline muted loop preload="metadata"></video>
+                        <video src="assets/h2.mp4" playsinline muted loop preload="metadata"></video>
+                        <div class="works__play-overlay">
+                            <div class="works__play-btn"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M8 5V19L19 12L8 5Z" fill="white"/></svg></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="works__item" data-animate>
+                    <div class="works__video-wrap works__video-wrap--horizontal">
+                        <video src="assets/h3.mp4" playsinline muted loop preload="metadata"></video>
+                        <div class="works__play-overlay">
+                            <div class="works__play-btn"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M8 5V19L19 12L8 5Z" fill="white"/></svg></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="works__item" data-animate>
+                    <div class="works__video-wrap works__video-wrap--horizontal">
+                        <video src="assets/h4.mp4" playsinline muted loop preload="metadata"></video>
                         <div class="works__play-overlay">
                             <div class="works__play-btn"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M8 5V19L19 12L8 5Z" fill="white"/></svg></div>
                         </div>
@@ -102,11 +118,11 @@
                 </div>
             </div>
 
-            <!-- Vertical Grid -->
+            <!-- Vertical Grid (G — вертикальные) -->
             <div class="works__grid works__grid--vertical" id="vertical-works" style="display: none;">
                 <div class="works__item" data-animate>
                     <div class="works__video-wrap">
-                        <video src="assets/work1.mp4" playsinline muted loop preload="metadata"></video>
+                        <video src="assets/g1.mp4" playsinline muted loop preload="metadata"></video>
                         <div class="works__play-overlay">
                             <div class="works__play-btn"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M8 5V19L19 12L8 5Z" fill="white"/></svg></div>
                         </div>
@@ -114,7 +130,7 @@
                 </div>
                 <div class="works__item" data-animate>
                     <div class="works__video-wrap">
-                        <video src="assets/work2.mp4" playsinline muted loop preload="metadata"></video>
+                        <video src="assets/g2.mp4" playsinline muted loop preload="metadata"></video>
                         <div class="works__play-overlay">
                             <div class="works__play-btn"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M8 5V19L19 12L8 5Z" fill="white"/></svg></div>
                         </div>
@@ -122,7 +138,15 @@
                 </div>
                 <div class="works__item" data-animate>
                     <div class="works__video-wrap">
-                        <video src="assets/work3.mp4" playsinline muted loop preload="metadata"></video>
+                        <video src="assets/g3.mp4" playsinline muted loop preload="metadata"></video>
+                        <div class="works__play-overlay">
+                            <div class="works__play-btn"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M8 5V19L19 12L8 5Z" fill="white"/></svg></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="works__item" data-animate>
+                    <div class="works__video-wrap">
+                        <video src="assets/g4.mp4" playsinline muted loop preload="metadata"></video>
                         <div class="works__play-overlay">
                             <div class="works__play-btn"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M8 5V19L19 12L8 5Z" fill="white"/></svg></div>
                         </div>
@@ -130,17 +154,31 @@
                 </div>
             </div>
 
-            <!-- AI Grid (placeholder — видео пришлёт клиент) -->
-            <!--
-                Когда придут ИИ-видео, скопируй блок .works__item ниже и подставь src:
-                <div class="works__item" data-animate>
-                    <div class="works__video-wrap"> ... аналогично вертикальным ... </div>
-                </div>
-            -->
+            <!-- AI Grid (AI — ИИ-видео, смешанные ориентации) -->
             <div class="works__grid works__grid--ai" id="ai-works" style="display: none;">
-                <div class="works__placeholder">
-                    <p class="works__placeholder-title">ИИ-видео скоро здесь</p>
-                    <p class="works__placeholder-text">Работы с использованием нейросетей: генерация кадров, AI-аватары, анимация. Раздел в подготовке.</p>
+                <div class="works__item" data-animate style="aspect-ratio:16/9">
+                    <div class="works__video-wrap">
+                        <video src="assets/ai1.mp4" playsinline muted loop preload="metadata"></video>
+                        <div class="works__play-overlay">
+                            <div class="works__play-btn"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M8 5V19L19 12L8 5Z" fill="white"/></svg></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="works__item" data-animate style="aspect-ratio:9/16">
+                    <div class="works__video-wrap">
+                        <video src="assets/ai2.mp4" playsinline muted loop preload="metadata"></video>
+                        <div class="works__play-overlay">
+                            <div class="works__play-btn"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M8 5V19L19 12L8 5Z" fill="white"/></svg></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="works__item" data-animate style="aspect-ratio:1080/1300">
+                    <div class="works__video-wrap">
+                        <video src="assets/ai3.mp4" playsinline muted loop preload="metadata"></video>
+                        <div class="works__play-overlay">
+                            <div class="works__play-btn"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M8 5V19L19 12L8 5Z" fill="white"/></svg></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -161,7 +199,7 @@
                     <div class="case__header">
                         <span class="case__icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33 2.78 2.78 0 0 0 1.94 2c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.33 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg></span>
                         <div>
-                            <h3 class="case__name">Врач-миллионник</h3>
+                            <h3 class="case__name">Врач эндокринолог</h3>
                             <span class="case__subs">1,6 млн подписчиков · название скрыто</span>
                         </div>
                     </div>
@@ -246,8 +284,9 @@
                         <p class="case__text">Расширение аудитории. Повышено удержание зрителей, увеличена эффективность воронки и количество продаж через Telegram.</p>
                     </div>
                     <div class="case__links">
-                        <!-- TODO: заменить # на реальные ссылки, когда придут в ТГ -->
-                        <a href="#" class="case__link-btn" onclick="return false;">Смотреть работу <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></a>
+                        <a href="https://www.youtube.com/watch?v=c2zSpjpCHfY" target="_blank" rel="noopener" class="case__link-btn">Пример 1 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></a>
+                        <a href="https://youtu.be/0Y_qUISMlA8?t=46" target="_blank" rel="noopener" class="case__link-btn">Пример 2 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></a>
+                        <a href="https://www.youtube.com/watch?v=cPY4ODM-iy4" target="_blank" rel="noopener" class="case__link-btn">Пример 3 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></a>
                     </div>
                 </div>
 
@@ -293,8 +332,11 @@
                         <p class="case__text">Повышено удержание зрителей, увеличена эффективность контентной воронки и выстроена системная работа с контентом — рост канала с 53 000 до 150 000 подписчиков.</p>
                     </div>
                     <div class="case__links">
-                        <!-- TODO: заменить # на реальные ссылки, когда придут в ТГ -->
-                        <a href="#" class="case__link-btn" onclick="return false;">Смотреть работу <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></a>
+                        <a href="https://www.youtube.com/@abrakadabrasss" target="_blank" rel="noopener" class="case__link-btn">Канал на YouTube <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></a>
+                    </div>
+                    <div class="case__note">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+                        Канал был закрыт.
                     </div>
                 </div>
 
@@ -340,17 +382,17 @@
                         <p class="case__text">Повышено удержание зрителей, увеличена эффективность воронки и выстроена систематизация контента, что способствовало росту канала с 92 000 до 114 000 подписчиков.</p>
                     </div>
                     <div class="case__links">
-                        <!-- TODO: заменить # на реальные ссылки, когда придут в ТГ -->
-                        <a href="#" class="case__link-btn" onclick="return false;">Смотреть работу <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></a>
+                        <a href="https://www.youtube.com/watch?v=PQHtmIJdcSw" target="_blank" rel="noopener" class="case__link-btn">Пример 1 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></a>
+                        <a href="https://www.youtube.com/watch?v=QJMwtWEnN98" target="_blank" rel="noopener" class="case__link-btn">Пример 2 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></a>
                     </div>
                 </div>
 
-                <!-- Case 4: Hello Miss Margot -->
+                <!-- Case 4: Hello Miss Margo -->
                 <div class="case" data-animate>
                     <div class="case__header">
                         <span class="case__icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></span>
                         <div>
-                            <h3 class="case__name">Hello Miss Margot</h3>
+                            <h3 class="case__name">Hello Miss Margo</h3>
                             <span class="case__subs">150 тыс. подписчиков</span>
                         </div>
                     </div>
@@ -387,10 +429,8 @@
                         <p class="case__text">Повышена эффективность воронки, улучшены показатели вовлечённости аудитории и обеспечен рост аккаунта с 120 000 до 145 000 подписчиков.</p>
                     </div>
                     <div class="case__links">
-                        <!-- TODO: заменить # на реальные ссылки, когда придут в ТГ -->
-                        <a href="#" class="case__link-btn" onclick="return false;">Смотреть работу <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></a>
-                    </div>
-                </div>
+                        <a href="https://www.instagram.com/reel/DCEsQueNoSy/" target="_blank" rel="noopener" class="case__link-btn">Смотреть Reels <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></a>
+                    </div>                </div>
 
             </div>
         </div>
